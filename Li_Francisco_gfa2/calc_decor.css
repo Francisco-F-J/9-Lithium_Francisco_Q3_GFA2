@@ -1,0 +1,23 @@
+/*background & overall format style*/
+body {
+    margin: 0px;
+    padding: 0px;
+	background-image: url(bg_images/Dawn_ocean_view.gif); /**bg img**/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*affects the entire calculator body*/
+#calc_holder {
+    border: 5px solid black;
+}
+/*affects version number*/
+#calc_ver {
+    font-style: italic;
+}
+/*affects the answer sentence label*/
+#ans_label {
+    font-weight: bold;
+}
+.btn-info {
+    width: 45px;
+}
